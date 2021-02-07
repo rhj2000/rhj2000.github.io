@@ -1,0 +1,70 @@
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+    
+    table, th, td 
+{
+    border: 1px solid black;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+
+}
+a:link{
+    color:blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+    color:salmon;
+    text-decoration: underline;
+}
+a:active{
+  color: yellowgreen;  
+  background-color: tan;
+  text-decoration: underline;
+}
+#mainHeader{
+    color:brown;
+    text-align: center;
+}
+#container {width:825px;
+      border:1px solid #966;
+      margin:0;
+      padding:0;
+}
+.border1 {width:827px;
+      border:3px solid #963;
+      margin:1px;
+      padding:2px;}
+.border2 {width:839px;
+      border:1px solid #966;
+      margin:12px auto 12px auto;}
+body {
+    -webkit-animation: BackgroundGradient 10s infinite;
+    animation: BackgroundGradient 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+
+}
+@keyframes BackgroundGradient {
+    0% {background-color: bisque;}
+    50%{background-color: rgb(206, 193, 235);}
+    100% {background-color: rgb(155, 155, 216);}
+}
