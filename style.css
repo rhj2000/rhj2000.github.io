@@ -63,8 +63,18 @@ body {
     animation-direction: alternate;
 
 }
+.header {
+    margin: auto;
+    margin-top: 30px;
+    width: 900px;
+    border: 1px solid #000000;
+    background: #cccccc;
+
+}
+/*
 @keyframes BackgroundGradient {
     0% {background-color: bisque;}
     50%{background-color: rgb(206, 193, 235);}
     100% {background-color: rgb(155, 155, 216);}
-}
+
+}*/
